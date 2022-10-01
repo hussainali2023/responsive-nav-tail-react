@@ -1,13 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Navbar from "./Navbar/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-5xl font-extrabold bg-black text-white">
-        This is heading
-      </h1>
-      <h3>this is not a heading</h3>
+      <Navbar></Navbar>
+      <h1 className="text-5xl font-bold mt-20">This is main section</h1>
     </div>
   );
 }
